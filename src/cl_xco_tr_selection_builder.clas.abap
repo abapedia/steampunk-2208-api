@@ -1,0 +1,5 @@
+CLASS cl_xco_tr_selection_builder DEFINITION PUBLIC FINAL CREATE PRIVATE.
+ENDCLASS.
+
+CLASS cl_xco_tr_selection_builder IMPLEMENTATION.
+ENDCLASS.

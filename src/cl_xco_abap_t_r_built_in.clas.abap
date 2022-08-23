@@ -1,0 +1,5 @@
+CLASS cl_xco_abap_t_r_built_in DEFINITION PUBLIC FINAL CREATE PRIVATE.
+ENDCLASS.
+
+CLASS cl_xco_abap_t_r_built_in IMPLEMENTATION.
+ENDCLASS.

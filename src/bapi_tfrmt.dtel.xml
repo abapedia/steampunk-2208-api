@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>BAPI_TFRMT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>06</SCRLEN2>
+    <SCRLEN3>11</SCRLEN3>
+    <DDTEXT>Textformat</DDTEXT>
+    <REPTEXT>Textformat</REPTEXT>
+    <SCRTEXT_S>FRMT</SCRTEXT_S>
+    <SCRTEXT_M>Format</SCRTEXT_M>
+    <SCRTEXT_L>Textformat</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <LENG>000003</LENG>
+    <DECIMALS>000000</DECIMALS>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

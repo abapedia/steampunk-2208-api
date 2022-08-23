@@ -1,0 +1,9 @@
+CLASS xco_cp_hash DEFINITION PUBLIC FINAL CREATE PRIVATE.
+  PUBLIC SECTION.
+    CLASS-DATA:
+      algorithm TYPE REF TO if_xco_cp_hash_algorithm_fctry READ-ONLY.
+
+ENDCLASS.
+
+CLASS xco_cp_hash IMPLEMENTATION.
+ENDCLASS.

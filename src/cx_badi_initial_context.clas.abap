@@ -1,0 +1,18 @@
+CLASS cx_badi_initial_context DEFINITION
+  PUBLIC
+  INHERITING FROM cx_badi
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_badi_initial_context TYPE c LENGTH 32 VALUE '0200C56F1BD8FF4486186B0CBE3A0447'. "#EC NOTEXT
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_badi_initial_context IMPLEMENTATION.
+ENDCLASS.

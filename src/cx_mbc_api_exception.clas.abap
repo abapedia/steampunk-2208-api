@@ -1,0 +1,10 @@
+CLASS cx_mbc_api_exception DEFINITION PUBLIC FINAL
+    INHERITING FROM cx_no_check CREATE PRIVATE.
+  PUBLIC SECTION.
+    METHODS:
+      if_xco_news~get_messages REDEFINITION.
+
+ENDCLASS.
+
+CLASS cx_mbc_api_exception IMPLEMENTATION.
+ENDCLASS.

@@ -1,0 +1,12 @@
+CLASS cl_a4c_bc_factory DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PRIVATE.
+
+  PUBLIC SECTION.
+    CLASS-METHODS: get_handler
+      RETURNING VALUE(ro_bc_handler) TYPE REF TO if_a4c_bc_handler.
+ENDCLASS.
+
+CLASS cl_a4c_bc_factory IMPLEMENTATION.
+ENDCLASS.

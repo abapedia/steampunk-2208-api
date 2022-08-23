@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>CHAR35</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR35</DOMNAME>
+    <DATATYPE>CHAR</DATATYPE>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>CHAR35</DDTEXT>
+    <REPTEXT>CHAR35</REPTEXT>
+    <SCRTEXT_S>CHAR35</SCRTEXT_S>
+    <SCRTEXT_M>CHAR35</SCRTEXT_M>
+    <SCRTEXT_L>CHAR35</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <LENG>000035</LENG>
+    <DECIMALS>000000</DECIMALS>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

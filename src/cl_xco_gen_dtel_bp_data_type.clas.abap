@@ -1,0 +1,5 @@
+CLASS cl_xco_gen_dtel_bp_data_type DEFINITION PUBLIC FINAL CREATE PRIVATE.
+ENDCLASS.
+
+CLASS cl_xco_gen_dtel_bp_data_type IMPLEMENTATION.
+ENDCLASS.

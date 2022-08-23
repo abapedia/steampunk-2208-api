@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>SXCO_AR_SHORT_DESCRIPTION</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Short description</DDTEXT>
+    <REPTEXT>Short description</REPTEXT>
+    <SCRTEXT_S>Descr.</SCRTEXT_S>
+    <SCRTEXT_M>Short description</SCRTEXT_M>
+    <SCRTEXT_L>Short description</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <LENG>000060</LENG>
+    <DECIMALS>000000</DECIMALS>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

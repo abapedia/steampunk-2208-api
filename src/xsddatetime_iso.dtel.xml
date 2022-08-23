@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>XSDDATETIME_ISO</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XSDDATETIME_ISO</DOMNAME>
+    <DATATYPE>CHAR</DATATYPE>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>dateTime</DDTEXT>
+    <REPTEXT>dateTime</REPTEXT>
+    <SCRTEXT_S>dateTime</SCRTEXT_S>
+    <SCRTEXT_M>dateTime</SCRTEXT_M>
+    <SCRTEXT_L>dateTime</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <LENG>000033</LENG>
+    <DECIMALS>000000</DECIMALS>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

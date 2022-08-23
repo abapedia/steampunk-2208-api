@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>BAPINETWRK</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>DEC</DATATYPE>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>33</SCRLEN3>
+    <DDTEXT>Nettowert des Auftrags in Belegwährung</DDTEXT>
+    <REPTEXT>Nettowert des Auftrags in Belegwährung</REPTEXT>
+    <SCRTEXT_S>Nettowert</SCRTEXT_S>
+    <SCRTEXT_M>Nettowert Auftrag</SCRTEXT_M>
+    <SCRTEXT_L>Nettowert Auftrag in Belegwährung</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <LENG>000023</LENG>
+    <DECIMALS>000004</DECIMALS>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

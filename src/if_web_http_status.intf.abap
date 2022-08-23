@@ -1,0 +1,50 @@
+INTERFACE if_web_http_status
+  PUBLIC.
+
+  CONSTANTS continue TYPE i VALUE 100 ##NO_TEXT.
+  CONSTANTS switching_protocols TYPE i VALUE 101 ##NO_TEXT.
+  CONSTANTS processing TYPE i VALUE 102 ##NO_TEXT.
+  CONSTANTS ok TYPE i VALUE 200 ##NO_TEXT.
+  CONSTANTS created TYPE i VALUE 201 ##NO_TEXT.
+  CONSTANTS accepted TYPE i VALUE 202 ##NO_TEXT.
+  CONSTANTS non_authoritative_information TYPE i VALUE 203 ##NO_TEXT.
+  CONSTANTS no_content TYPE i VALUE 204 ##NO_TEXT.
+  CONSTANTS reset_content TYPE i VALUE 205 ##NO_TEXT.
+  CONSTANTS partial_content TYPE i VALUE 206 ##NO_TEXT.
+  CONSTANTS multi_status TYPE i VALUE 207 ##NO_TEXT.
+  CONSTANTS already_reported TYPE i VALUE 208 ##NO_TEXT.
+  CONSTANTS im_used TYPE i VALUE 226 ##NO_TEXT.
+  CONSTANTS multiple_choices TYPE i VALUE 300 ##NO_TEXT.
+  CONSTANTS moved_permanently TYPE i VALUE 301 ##NO_TEXT.
+  CONSTANTS found TYPE i VALUE 302 ##NO_TEXT.
+  CONSTANTS see_other TYPE i VALUE 303 ##NO_TEXT.
+  CONSTANTS not_modified TYPE i VALUE 304 ##NO_TEXT.
+  CONSTANTS use_proxy TYPE i VALUE 305 ##NO_TEXT.
+  CONSTANTS temporary_redirect TYPE i VALUE 307 ##NO_TEXT.
+  CONSTANTS permanent_redirect TYPE i VALUE 308 ##NO_TEXT.
+  CONSTANTS bad_request TYPE i VALUE 400 ##NO_TEXT.
+  CONSTANTS unauthorized TYPE i VALUE 401 ##NO_TEXT.
+  CONSTANTS payment_required TYPE i VALUE 402 ##NO_TEXT.
+  CONSTANTS forbidden TYPE i VALUE 403 ##NO_TEXT.
+  CONSTANTS not_found TYPE i VALUE 404 ##NO_TEXT.
+  CONSTANTS method_not_allowed TYPE i VALUE 405 ##NO_TEXT.
+  CONSTANTS not_acceptable TYPE i VALUE 406 ##NO_TEXT.
+  CONSTANTS proxy_authn_required TYPE i VALUE 407 ##NO_TEXT.
+  CONSTANTS request_timeout TYPE i VALUE 408 ##NO_TEXT.
+  CONSTANTS conflict TYPE i VALUE 409 ##NO_TEXT.
+  CONSTANTS gone TYPE i VALUE 410 ##NO_TEXT.
+  CONSTANTS length_required TYPE i VALUE 411 ##NO_TEXT.
+  CONSTANTS precondition_failed TYPE i VALUE 412 ##NO_TEXT.
+  CONSTANTS payload_too_large TYPE i VALUE 413 ##NO_TEXT.
+  CONSTANTS request_uri_too_long TYPE i VALUE 414 ##NO_TEXT.
+  CONSTANTS unsupported_media_type TYPE i VALUE 415 ##NO_TEXT.
+  CONSTANTS locked TYPE i VALUE 423 ##NO_TEXT.
+  CONSTANTS internal_server_error TYPE i VALUE 500 ##NO_TEXT.
+  CONSTANTS not_implemented TYPE i VALUE 501 ##NO_TEXT.
+  CONSTANTS bad_gateway TYPE i VALUE 502 ##NO_TEXT.
+  CONSTANTS service_unavailable TYPE i VALUE 503 ##NO_TEXT.
+  CONSTANTS gateway_timeout TYPE i VALUE 504 ##NO_TEXT.
+  CONSTANTS http_version_not_supported TYPE i VALUE 505 ##NO_TEXT.
+  CONSTANTS loop_detected TYPE i VALUE 508 ##NO_TEXT.
+  CONSTANTS not_extended TYPE i VALUE 510 ##NO_TEXT.
+ENDINTERFACE.

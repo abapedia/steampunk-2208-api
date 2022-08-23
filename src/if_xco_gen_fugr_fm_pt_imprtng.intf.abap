@@ -1,0 +1,3 @@
+INTERFACE if_xco_gen_fugr_fm_pt_imprtng PUBLIC.
+
+ENDINTERFACE.

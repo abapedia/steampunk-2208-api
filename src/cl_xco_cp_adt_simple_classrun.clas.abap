@@ -1,0 +1,5 @@
+CLASS cl_xco_cp_adt_simple_classrun DEFINITION PUBLIC ABSTRACT CREATE PROTECTED.
+ENDCLASS.
+
+CLASS cl_xco_cp_adt_simple_classrun IMPLEMENTATION.
+ENDCLASS.

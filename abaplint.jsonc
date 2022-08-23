@@ -1,0 +1,24 @@
+{
+  "global": {
+    "files": "/src/**/*.*"
+  },
+  "syntax": {
+    "version": "Cloud",
+    "errorNamespace": "."
+  },
+  "rules": {
+    "begin_end_names": true,
+    "check_ddic": true,
+    "check_include": true,
+    "check_syntax": true,
+    "global_class": true,
+    "cds_parser_error": true,
+    "implement_methods": false, // yea, false
+    "method_implemented_twice": true,
+    "parser_error": true,
+    "parser_missing_space": true,
+    "superclass_final": true,
+    "unknown_types": true,
+    "xml_consistency": true
+  }
+}

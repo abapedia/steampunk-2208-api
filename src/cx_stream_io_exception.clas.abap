@@ -1,0 +1,19 @@
+CLASS cx_stream_io_exception DEFINITION
+  PUBLIC
+  INHERITING FROM cx_stream_error
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_stream_io_exception TYPE c LENGTH 32 VALUE '001560AA0E0802DBA5C08AA5D8BEC93F'. "#EC NOTEXT
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_stream_io_exception IMPLEMENTATION.
+ENDCLASS.

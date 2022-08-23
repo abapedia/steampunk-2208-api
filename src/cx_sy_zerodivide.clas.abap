@@ -1,0 +1,21 @@
+CLASS cx_sy_zerodivide DEFINITION
+  PUBLIC
+  INHERITING FROM cx_sy_arithmetic_error
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_sy_zerodivide TYPE c LENGTH 32
+ VALUE '155FB739985CE619E10000000A11447B'.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL
+      VALUE(operation) TYPE string OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_sy_zerodivide IMPLEMENTATION.
+ENDCLASS.

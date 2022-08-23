@@ -1,0 +1,23 @@
+CLASS cx_sy_conversion_no_qname DEFINITION
+  PUBLIC
+  INHERITING FROM cx_sy_conversion_error
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_sy_conversion_no_qname TYPE c LENGTH 32 VALUE 'DCF1AF157AF1D0F1AC50001CC411E33E'. "#EC NOTEXT
+    CONSTANTS not_in_abap_format TYPE c LENGTH 32 VALUE 'DCF1AF157AF1D1F1AC50001CC411E33E'. "#EC NOTEXT
+    CONSTANTS not_in_xml_format TYPE c LENGTH 32 VALUE 'DCF1AF157AF1D2F1AC50001CC411E33E'. "#EC NOTEXT
+    DATA value TYPE string.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL
+      !value TYPE string OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_sy_conversion_no_qname IMPLEMENTATION.
+ENDCLASS.

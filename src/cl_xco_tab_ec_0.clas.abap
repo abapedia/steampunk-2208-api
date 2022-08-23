@@ -1,0 +1,6 @@
+CLASS cl_xco_tab_ec_0 DEFINITION PUBLIC FINAL
+    INHERITING FROM cl_xco_tab_enhancement_ctgry CREATE PRIVATE.
+ENDCLASS.
+
+CLASS cl_xco_tab_ec_0 IMPLEMENTATION.
+ENDCLASS.

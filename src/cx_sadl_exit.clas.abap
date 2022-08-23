@@ -1,0 +1,16 @@
+CLASS cx_sadl_exit DEFINITION
+  PUBLIC INHERITING FROM cx_static_check
+  ABSTRACT
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_sadl_exit IMPLEMENTATION.
+ENDCLASS.

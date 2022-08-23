@@ -1,0 +1,20 @@
+CLASS cx_sy_unknown_type DEFINITION
+  PUBLIC
+  INHERITING FROM cx_dynamic_check
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_sy_unknown_type TYPE c LENGTH 32 VALUE '3ABD443F3DAFCE14E10000000A114BF5' ##NO_TEXT.
+    CONSTANTS empty_name TYPE c LENGTH 32 VALUE 'FC2C673FDB262D05E10000000A114BF5' ##NO_TEXT.
+    DATA type_name TYPE string.
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL
+      !type_name TYPE string OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_sy_unknown_type IMPLEMENTATION.
+ENDCLASS.

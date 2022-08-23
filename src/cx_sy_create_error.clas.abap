@@ -1,0 +1,20 @@
+CLASS cx_sy_create_error DEFINITION
+  PUBLIC
+  INHERITING FROM cx_dynamic_check
+  ABSTRACT
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_sy_create_error TYPE c LENGTH 32
+ VALUE 'C05DB739AB5CE919E10000000A11447B'.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_sy_create_error IMPLEMENTATION.
+ENDCLASS.

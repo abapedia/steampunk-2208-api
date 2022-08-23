@@ -1,0 +1,19 @@
+CLASS cx_close_resource_error DEFINITION
+  PUBLIC
+  INHERITING FROM cx_dynamic_check
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_close_resource_error TYPE c LENGTH 32 VALUE '001560AA0E0802DBB9E7BFA64ADA8283'. "#EC NOTEXT
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_close_resource_error IMPLEMENTATION.
+ENDCLASS.

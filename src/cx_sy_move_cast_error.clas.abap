@@ -1,0 +1,28 @@
+CLASS cx_sy_move_cast_error DEFINITION
+  PUBLIC
+  INHERITING FROM cx_dynamic_check
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_sy_move_cast_error TYPE c LENGTH 32
+ VALUE 'D6089D3B3CFA135EE10000000A11447B'.
+    CONSTANTS ref_only TYPE c LENGTH 32
+ VALUE '7848A0517170CE4893848CE0953F5040'.
+    CONSTANTS dyn_conflict TYPE c LENGTH 32
+ VALUE '5DAF69F28B145B49A6B03C598CFB9429'.
+    DATA source_typename TYPE string READ-ONLY.
+    DATA target_typename TYPE string READ-ONLY.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL
+      VALUE(source_typename) TYPE string OPTIONAL
+      VALUE(target_typename) TYPE string OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_sy_move_cast_error IMPLEMENTATION.
+ENDCLASS.

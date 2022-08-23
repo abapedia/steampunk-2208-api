@@ -1,0 +1,5 @@
+CLASS cl_xco_gen_tabl_bp_fkey_card DEFINITION PUBLIC FINAL CREATE PRIVATE.
+ENDCLASS.
+
+CLASS cl_xco_gen_tabl_bp_fkey_card IMPLEMENTATION.
+ENDCLASS.

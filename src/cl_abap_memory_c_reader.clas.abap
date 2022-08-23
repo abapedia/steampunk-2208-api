@@ -1,0 +1,13 @@
+CLASS cl_abap_memory_c_reader DEFINITION
+  PUBLIC
+  INHERITING FROM cl_abap_c_reader
+  ABSTRACT
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cl_abap_memory_c_reader IMPLEMENTATION.
+ENDCLASS.

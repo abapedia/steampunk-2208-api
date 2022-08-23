@@ -1,0 +1,29 @@
+CLASS cx_sy_dyn_call_illegal_class DEFINITION
+  PUBLIC
+  INHERITING FROM cx_sy_dyn_call_error
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS abstract_class TYPE c LENGTH 32
+ VALUE '0573CD3BE9663357E10000000A11447B'. "#EC NOTEXT
+    CONSTANTS cx_sy_dyn_call_illegal_class TYPE c LENGTH 32
+ VALUE 'F972CD3BE9663357E10000000A11447B'. "#EC NOTEXT
+    CONSTANTS unknown_class TYPE c LENGTH 32
+ VALUE 'FF72CD3BE9663357E10000000A11447B'. "#EC NOTEXT
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL
+      VALUE(classname) TYPE string OPTIONAL
+      VALUE(methodname) TYPE string OPTIONAL
+      VALUE(function) TYPE string OPTIONAL
+      VALUE(form) TYPE string OPTIONAL
+      VALUE(progname) TYPE string OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_sy_dyn_call_illegal_class IMPLEMENTATION.
+ENDCLASS.

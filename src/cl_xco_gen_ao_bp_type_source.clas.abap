@@ -1,0 +1,5 @@
+CLASS cl_xco_gen_ao_bp_type_source DEFINITION PUBLIC FINAL CREATE PRIVATE.
+ENDCLASS.
+
+CLASS cl_xco_gen_ao_bp_type_source IMPLEMENTATION.
+ENDCLASS.

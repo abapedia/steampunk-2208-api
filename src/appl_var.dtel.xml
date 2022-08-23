@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>APPL_VAR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>Anwendungsvariable</DDTEXT>
+    <REPTEXT>Anwendungsvariable</REPTEXT>
+    <SCRTEXT_S>Anw.Var.</SCRTEXT_S>
+    <SCRTEXT_M>Anwendungsvar.</SCRTEXT_M>
+    <SCRTEXT_L>Anwendungsvariable</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <LENG>000255</LENG>
+    <DECIMALS>000000</DECIMALS>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

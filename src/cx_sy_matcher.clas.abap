@@ -1,0 +1,20 @@
+CLASS cx_sy_matcher DEFINITION
+  PUBLIC
+  INHERITING FROM cx_dynamic_check
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_sy_matcher TYPE c LENGTH 32 VALUE 'DEB2963F4AA53D72E10000000A114BF5'. "#EC NOTEXT
+    DATA pattern TYPE string READ-ONLY.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL
+      !pattern TYPE string OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_sy_matcher IMPLEMENTATION.
+ENDCLASS.

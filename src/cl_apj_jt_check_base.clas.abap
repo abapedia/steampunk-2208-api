@@ -1,0 +1,13 @@
+CLASS cl_apj_jt_check_base DEFINITION
+  PUBLIC
+  ABSTRACT
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    INTERFACES if_apj_jt_check.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cl_apj_jt_check_base IMPLEMENTATION.
+ENDCLASS.

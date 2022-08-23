@@ -1,0 +1,5 @@
+CLASS cl_xco_bdef_evaluation_time DEFINITION PUBLIC FINAL CREATE PRIVATE.
+ENDCLASS.
+
+CLASS cl_xco_bdef_evaluation_time IMPLEMENTATION.
+ENDCLASS.

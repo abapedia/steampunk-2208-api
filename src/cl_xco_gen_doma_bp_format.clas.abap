@@ -1,0 +1,5 @@
+CLASS cl_xco_gen_doma_bp_format DEFINITION PUBLIC FINAL CREATE PRIVATE.
+ENDCLASS.
+
+CLASS cl_xco_gen_doma_bp_format IMPLEMENTATION.
+ENDCLASS.

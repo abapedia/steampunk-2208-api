@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ABAP_MSIZE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>DEC</DATATYPE>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>29</SCRLEN3>
+    <DDTEXT>64-Bit-Integer mit Vorzeichen</DDTEXT>
+    <REPTEXT>64-Bit-Integer mit Vorzeichen</REPTEXT>
+    <SCRTEXT_S>64-Bit-Int</SCRTEXT_S>
+    <SCRTEXT_M>64-Bit-Integer</SCRTEXT_M>
+    <SCRTEXT_L>64-Bit-Integer mit Vorzeichen</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <LENG>000020</LENG>
+    <DECIMALS>000000</DECIMALS>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

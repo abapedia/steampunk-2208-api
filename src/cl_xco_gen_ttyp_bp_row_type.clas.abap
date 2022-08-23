@@ -1,0 +1,5 @@
+CLASS cl_xco_gen_ttyp_bp_row_type DEFINITION PUBLIC FINAL CREATE PRIVATE.
+ENDCLASS.
+
+CLASS cl_xco_gen_ttyp_bp_row_type IMPLEMENTATION.
+ENDCLASS.

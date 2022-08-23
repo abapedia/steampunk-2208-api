@@ -1,0 +1,25 @@
+CLASS cx_call_st_error DEFINITION
+  PUBLIC
+  INHERITING FROM cx_transformation_error
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_call_st_error TYPE c LENGTH 32 VALUE '636273434D3BD320E10000000A15523C'. "#EC NOTEXT
+    CONSTANTS incompatible_parameter TYPE c LENGTH 32 VALUE 'B732D7D9A9C0B746B0333DC48F5BF16C'. "#EC NOTEXT
+    CONSTANTS incompatible_root TYPE c LENGTH 32 VALUE '6E6273434D3BD320E10000000A15523C'. "#EC NOTEXT
+    DATA root_name TYPE string READ-ONLY.
+    DATA st_progname TYPE string READ-ONLY.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL
+      !root_name TYPE string OPTIONAL
+      !st_progname TYPE string OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_call_st_error IMPLEMENTATION.
+ENDCLASS.

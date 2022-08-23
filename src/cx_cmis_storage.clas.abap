@@ -1,0 +1,20 @@
+CLASS cx_cmis_storage DEFINITION
+  PUBLIC
+  INHERITING FROM cx_cmis_root
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_cmis_storage TYPE c LENGTH 32 VALUE '005056AB5B8D1EE487D980E1ED8B9A3C' ##NO_TEXT.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL
+      !message_text TYPE string OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_cmis_storage IMPLEMENTATION.
+ENDCLASS.

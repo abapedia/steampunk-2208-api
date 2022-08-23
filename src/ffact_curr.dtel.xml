@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>FFACT_CURR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>DEC</DATATYPE>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Faktor(von)</DDTEXT>
+    <REPTEXT>Faktor(von)</REPTEXT>
+    <SCRTEXT_S>Faktor</SCRTEXT_S>
+    <SCRTEXT_M>Faktor(von)</SCRTEXT_M>
+    <SCRTEXT_L>Faktor(von)</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <LENG>000009</LENG>
+    <DECIMALS>000000</DECIMALS>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

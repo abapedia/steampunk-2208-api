@@ -1,0 +1,18 @@
+CLASS cx_xsdany_error DEFINITION
+  PUBLIC
+  INHERITING FROM cx_transformation_error
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_xsdany_error TYPE c LENGTH 32 VALUE '001A4BD2B24A02ECB0E24BF212F842A9'. "#EC NOTEXT
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_xsdany_error IMPLEMENTATION.
+ENDCLASS.

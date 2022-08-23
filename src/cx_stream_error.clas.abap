@@ -1,0 +1,18 @@
+CLASS cx_stream_error DEFINITION
+  PUBLIC
+  INHERITING FROM cx_dynamic_check
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_stream_error TYPE c LENGTH 32 VALUE '001560AA0E0802DBA5C08CE4D2FA8949'. "#EC NOTEXT
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_stream_error IMPLEMENTATION.
+ENDCLASS.

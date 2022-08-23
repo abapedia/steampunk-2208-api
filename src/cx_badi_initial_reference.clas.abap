@@ -1,0 +1,19 @@
+CLASS cx_badi_initial_reference DEFINITION
+  PUBLIC
+  INHERITING FROM cx_badi
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_badi_initial_reference TYPE c LENGTH 32 VALUE 'C797715280BA2344AC934C83ADDA2899'. "#EC NOTEXT
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_badi_initial_reference IMPLEMENTATION.
+ENDCLASS.

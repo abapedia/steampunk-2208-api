@@ -1,0 +1,16 @@
+CLASS cx_badi DEFINITION
+  PUBLIC
+  INHERITING FROM cx_no_check
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_badi IMPLEMENTATION.
+ENDCLASS.

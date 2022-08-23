@@ -1,0 +1,22 @@
+CLASS cx_badi_unknown_error DEFINITION
+  PUBLIC
+  INHERITING FROM cx_badi
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_badi_unknown_error TYPE c LENGTH 32 VALUE '72B47E4484B1DE63E10000000A42425B' ##NO_TEXT.
+    CONSTANTS cx_badi_not_allowed TYPE c LENGTH 32 VALUE 'E4A7A0657A291EEAB6E313D49E7B50F1' ##NO_TEXT.
+    DATA badi_name TYPE badi_name.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL
+      !badi_name TYPE badi_name OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_badi_unknown_error IMPLEMENTATION.
+ENDCLASS.

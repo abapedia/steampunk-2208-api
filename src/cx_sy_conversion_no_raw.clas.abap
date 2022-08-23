@@ -1,0 +1,25 @@
+CLASS cx_sy_conversion_no_raw DEFINITION
+  PUBLIC
+  INHERITING FROM cx_sy_conversion_error
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+
+    CONSTANTS cx_sy_conversion_no_raw TYPE c LENGTH 32
+ VALUE '31C3B7E18C334243A6366A2AC098FBBE'.
+    CONSTANTS not_in_base64_format TYPE c LENGTH 32
+ VALUE '6E92A13B7B8EF247E10000000A11447B'.
+    CONSTANTS not_in_hex_format TYPE c LENGTH 32
+ VALUE '3C56DCF0CD1508DBE10000000A114476'.
+    DATA value TYPE string.
+
+    METHODS constructor
+    IMPORTING
+      !textid LIKE textid OPTIONAL
+      !previous LIKE previous OPTIONAL
+      VALUE(value) TYPE string OPTIONAL.
+  PROTECTED SECTION.
+ENDCLASS.
+
+CLASS cx_sy_conversion_no_raw IMPLEMENTATION.
+ENDCLASS.

@@ -1,0 +1,5 @@
+CLASS cl_xco_gen_tabl_aps_enh_cat DEFINITION PUBLIC FINAL CREATE PRIVATE.
+ENDCLASS.
+
+CLASS cl_xco_gen_tabl_aps_enh_cat IMPLEMENTATION.
+ENDCLASS.
